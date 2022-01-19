@@ -4,12 +4,13 @@
 }
 
 body, html { 
+    height: 100%;
     margin: 0;
 }
 
 .wrapper {
+    height: 100%;
     padding: 1.5rem 1.5rem 0 1.5rem ;
-    /* border: 2px solid blue; */
 }
 
 .line_one {
@@ -31,22 +32,23 @@ p {
     display: flex;
     height: 48px;
     margin-bottom: 2rem;
+    padding: 0.3rem 0.3rem;
     border: 2px solid rgb(168, 168, 255);
 }
 
 .table-header__left {
-    margin-right: 10rem;
-    width: 200px;
+    margin-right: 2rem;
+    width: 256px;
     background-color: rgb(128, 85, 255);
 }
 .table-header_center {
     margin-right: auto;
-    width: 25px;
+    width: 2rem;
     background-color: rgb(128, 85, 255);
 }
 
 .table-header__right {
-    width: 25px;
+    width: 2rem;
     background-color: rgb(128, 85, 255);
 }
 
@@ -55,6 +57,7 @@ p {
 .field {
     display: flex;
     flex-direction: column;
+    height: 100%;
     border: 2px solid rgb(128, 85, 255);
     background-color: rgb(128, 85, 255);
 }
@@ -63,7 +66,7 @@ p {
     border: 2px solid rgb(128, 85, 255);
 }
 .field__two {
-    height: 512px;
+    height: 100%;
     background-color: rgb(191, 164, 207);
 }  
 .field__three {
