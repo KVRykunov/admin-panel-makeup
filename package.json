@@ -1,0 +1,22 @@
+{
+  "name": "admin-panel-makeup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KVRykunov/admin-panel-makeup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KVRykunov/admin-panel-makeup/issues"
+  },
+  "homepage": "https://github.com/KVRykunov/admin-panel-makeup#readme",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
+}
