@@ -9,7 +9,7 @@
   },
 "husky": {
 "hooks": {
-  "pre-commit": "yarm format && git add -A ."
+  "pre-commit": "yarm format && git add ."
 }
 },
   "repository": {
