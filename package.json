@@ -7,8 +7,12 @@
     "format": "prettier --write ." ,
         "lint": "prettier --check ."
   },
-  "husky": { "hooks": { "pre-commit": "prettier --write . && git add -A ." } },
-  
+  "husky": { 
+    "hooks": { 
+      "pre-commit": "prettier --write . && git add -A ." 
+      } 
+    },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KVRykunov/admin-panel-makeup.git"
