@@ -4,13 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write ."
+    "format": "prettier --write ." ,
+        "lint": "prettier --check ."
   },
-"husky": {
-  "hooks": {
-    "pre-commit": "yarn format"
-  }
-},
+  "husky": { "hooks": { "pre-commit": "prettier --write . && git add -A ." } },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KVRykunov/admin-panel-makeup.git"
