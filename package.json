@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
     "prettier": "prettier --write ."
   },
-"husky": {
-"hooks": {
-  "pre-commit": "npm run prettier"
-}
-},
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KVRykunov/admin-panel-makeup.git"
@@ -27,6 +26,7 @@
   },
   "devDependencies": {
     "husky": "^7.0.4",
+    "pre-commit": "^1.2.2",
     "prettier": "^2.5.1"
   }
 }
