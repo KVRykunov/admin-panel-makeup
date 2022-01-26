@@ -4,12 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pretty-quick": "pretty-quick --staged"
+    "prettier": "prettier --write ."
   },
-  "pre-commit": [
-    "pretty-quick"
-  ],
-
   "husky": {
     "hooks": {
       "pre-commit": "npm run prettier"
