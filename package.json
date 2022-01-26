@@ -6,9 +6,11 @@
   "scripts": {
     "prettier": "prettier --write ."
   },
-  "pre-commit": [
-    "prettier"
-  ],
+"husky": {
+  "hooks": {
+    "pre-commit": "yarn format"
+  }
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KVRykunov/admin-panel-makeup.git"
