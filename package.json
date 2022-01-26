@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write .",
     "prepare": "husky install",
+    "prettier": "prettier --write .",
   },
 "husky": {
 "hooks": {
-  "pre-commit": "yarm format && git add ."
+  "pre-commit": "npm run prettier"
 }
 },
   "repository": {
@@ -26,6 +26,7 @@
     "prettier": "^2.5.1"
   },
   "devDependencies": {
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1"
   }
 }
