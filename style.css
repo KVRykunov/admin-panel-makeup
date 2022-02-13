@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "HeadlandOne-Regular";
+  src: url("./fonts/HeadlandOne-Regular.ttf");
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.header__topcaps {
+  display: flex;
+  margin-bottom: 2rem;
+  height: 2rem;
+  background-color: #a8a8ff;
+}
+
+.text__topcaps {
+  font-family: "HeadlandOne-Regular";
+  color: rgb(128, 85, 255);
+  font-weight: 700px;
+  line-height: 32px;
+  font-size: 26px;
+  text-align: left;
+}
+
+.table-inputline {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  height: 48px;
+  margin-bottom: 2rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border: 2px solid rgb(168, 168, 255);
+}
+
+.table-inputline__inquiry {
+  margin-right: 2rem;
+  height: 2rem;
+  width: 256px;
+  background-color: #8055ff;
+}
+.table-inputline__filter {
+  margin-right: auto;
+  height: 2rem;
+  width: 2rem;
+  background-color: #8055ff;
+}
+
+.table-inputline__loading {
+  height: 2rem;
+  width: 2rem;
+  background-color: #8055ff;
+}
+
+.field {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height: 100%;
+  border: 2px solid rgb(128, 85, 255);
+  background-color: #8055ff;
+}
+.field__parameters {
+  height: 3rem;
+}
+.field__data {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height: 100%;
+  background-color: #a8a8ff;
+}
+.field__additional_settings {
+  height: 3rem;
+  background-color: #8055ff;
+  overflow-y: auto;
+}
